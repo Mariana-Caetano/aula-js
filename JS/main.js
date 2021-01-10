@@ -30,8 +30,9 @@
 
 //Dictionary
 
-var fruta = {nome:"banana", cor:"amarela"}
-//console.log(fruta)
-console.log(fruta.nome); //brings only the name
-alert(fruta.cor + " é a cor da " + fruta.nome);
+var fruta = [{nome:"banana", cor:"amarela"}, {nome:"uva", cor:"roxa"}]
+console.log(fruta);
+alert(fruta[1].nome);
+//console.log(fruta.nome); //brings only the name
+//alert(fruta.cor + " é a cor da " + fruta.nome);
 
