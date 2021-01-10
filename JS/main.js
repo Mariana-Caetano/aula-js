@@ -15,14 +15,23 @@
 
 //Array:
 
-var lista = ["maçã", "uva", "melância"];
+//var lista = ["maçã", "uva", "melância"];
 //lista.push("laranja") //add another element on the list. 
 //lista.pop(); //retira o último item da lista
-console.log(lista);
+//console.log(lista);
 
 //console.log(lista.length); //elements quantity on the list
 //console.log(lista.reverse()); //reverse the elements on the list
 //console.log(lista.toString());
-console.log(lista.join(" | ")); //it shows which type of separation will appear
+//console.log(lista.join(" | ")); //it shows which type of separation will appear
 //console.log(lista[2]); //only the position 2 will be printed
 //alert(lista[2] + " é a fruta escolhida"); 
+
+
+//Dictionary
+
+var fruta = {nome:"banana", cor:"amarela"}
+//console.log(fruta)
+console.log(fruta.nome); //brings only the name
+alert(fruta.cor + " é a cor da " + fruta.nome);
+
