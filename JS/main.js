@@ -20,6 +20,8 @@ var lista = ["maçã", "uva", "melância"];
 //lista.pop(); //retira o último item da lista
 //console.log(lista);
 
-console.log(lista.length); //elements quantity on the list
+//console.log(lista.length); //elements quantity on the list
+//console.log(lista.reverse()); //reverse the elements on the list
+console.log(lista.toString());
 //console.log(lista[2]); //only the position 2 will be printed
 //alert(lista[2] + " é a fruta escolhida"); 
