@@ -65,8 +65,20 @@ for(count = 0; count <= 5; count ++){
 
 //Date
 
-var data = new  Date();
+//var data = new  Date();
 //alert(data);  //mostra data e hora
 //alert(data.getMonth()+1);
 //alert(data.getHours()+1);
 //alert(data.getSeconds()+1);
+
+//Functions
+
+function soma(n1, n2) {
+    return n1 + n2
+}
+
+function setReplace(frase, nome, nome2) {
+    return frase.replace("nome, nome2")
+}
+//alert(soma(5, 10));
+alert(setReplace("Bem vinde", "pequene", "gafanhoto"));
