@@ -30,9 +30,43 @@
 
 //Dictionary
 
-var fruta = [{nome:"banana", cor:"amarela"}, {nome:"uva", cor:"roxa"}]
-console.log(fruta);
-alert(fruta[1].nome);
+//var fruta = [{nome:"banana", cor:"amarela"}, {nome:"uva", cor:"roxa"}]
+//console.log(fruta);
+//alert(fruta[1].nome);
 //console.log(fruta.nome); //brings only the name
 //alert(fruta.cor + " é a cor da " + fruta.nome);
 
+
+//Conditionals, loop and date
+
+/*var idade = prompt("Qual a sua idade?"); // o comando prompt exibe uma pergunta e o que ele responder fica gravado na var 
+
+if (idade >= 18) {
+    alert("você é maior de idade");
+} else {
+    alert("você é menor de idade");
+};*/
+
+
+//Loop
+
+/*var count = 0;
+while (count < 5) {
+    console.log(count);
+    count = count + 1 //ou count++
+};*/
+
+/*var count;
+for(count = 0; count <= 5; count ++){
+    alert(count);
+};*/
+
+
+
+//Date
+
+var data = new  Date();
+//alert(data);  //mostra data e hora
+//alert(data.getMonth()+1);
+//alert(data.getHours()+1);
+//alert(data.getSeconds()+1);
