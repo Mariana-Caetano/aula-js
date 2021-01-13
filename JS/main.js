@@ -73,11 +73,26 @@ for(count = 0; count <= 5; count ++){
 
 //Functions
 
+
+//MANIPULATING OBJECTS
 function botao() {
     document.getElementById("thanks").innerHTML = "<b>Obrigada por clicar!</b>";
     //console.log(document.getElementById("thanks"));
     //alert("Obrigada por clicar!");
 }
+
+
+//REDIRECT TO A NEW PAGE
+function newpage() {
+    window.open("https://google.com.br");
+   // window.location.href = "https://google.com.br";
+}
+
+
+function trocar() {
+    alert("trocar texto");
+}
+
 
 /*function soma(n1, n2) {
     return n1 + n2
