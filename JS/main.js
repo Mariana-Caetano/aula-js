@@ -73,7 +73,13 @@ for(count = 0; count <= 5; count ++){
 
 //Functions
 
-function soma(n1, n2) {
+function botao() {
+    document.getElementById("thanks").innerHTML = "<b>Obrigada por clicar!</b>";
+    //console.log(document.getElementById("thanks"));
+    //alert("Obrigada por clicar!");
+}
+
+/*function soma(n1, n2) {
     return n1 + n2
 }
 
@@ -90,4 +96,4 @@ function validaIdade(idade) {
 var idade = prompt("Qual a sua idade?")
 console.log(validaIdade(idade));
 
-//alert(soma(5, 10));
+//alert(soma(5, 10));*/
