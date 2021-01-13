@@ -89,8 +89,27 @@ function newpage() {
 }
 
 
-function trocar() {
-    alert("trocar texto");
+function trocar(element) {
+    //document.getElementById("mousemove").innerHTML = "Thanks!";
+    element.innerHTML = "Obrigada!";
+    //alert("trocar texto");
+}
+
+function voltar(element) {
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    element.innerHTML = "Passe o mouse aqui";
+}
+
+
+//onload
+function load() {
+    alert("página carregada");
+}
+
+
+//onchange
+function funcaoChange(element) {
+    console.log(element.value)
 }
 
 
